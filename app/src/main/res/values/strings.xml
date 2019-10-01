@@ -3,7 +3,7 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello</string>
-    <string name="text_pushup">An act for strengthening arm muscles performed by lying face down with the palms on the floor and pushing the body up and down with the arms.</string>
-    <string name="text_handstand">An act of balancing on the hands  with ones feet in the air or against a wall."</string>
-    <string name="text_dips">An act that is very effective for forming the upper muscles or upper body muscles.</string>
+    <string name="text_pushup">An exercises for strengthening arm muscles performed by lying face down with the palms on the floor and pushing the body up and down with the arms.</string>
+    <string name="text_handstand">An exercises of balancing on the hands  with ones feet in the air or against a wall."</string>
+    <string name="text_dips">An exercises that is very effective for forming the upper muscles or upper body muscles.</string>
 </resources>
