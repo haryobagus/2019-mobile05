@@ -18,14 +18,14 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         active = 1;
-        fragmetChange(new PushupFragment(),4);
+        fragmentChange(new PushupFragment(),4);
     }
 
     public void pushupButton(View view) {
-        fragmetChange(new PushupFragment(),1);
+        fragmentChange(new PushupFragment(),1);
     }
 
-    public  void fragmetChange(Fragment fragment,int status){
+    public  void fragmentChange(Fragment fragment,int status){
         if(active != status) {
             FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
             fragmentTransaction.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_OPEN);
@@ -37,10 +37,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void dipsButton(View view) {
-        fragmetChange(new DipsFragment(),2);
+        fragmentChange(new DipsFragment(),2);
     }
 
     public void handsButton(View view) {
-        fragmetChange(new HandstandFragment(),3);
+        fragmentChange(new HandstandFragment(),3);
     }
 }
